@@ -1,0 +1,39 @@
+.counter{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 865px;
+}
+
+.content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid black;
+        padding: 50px;
+        width: 30%;
+        border-radius: 10px;
+        background-color: rgb(180, 247, 247);
+}
+
+.counter h1{
+    font-size: 100px;
+    background: transparent;
+    color: rgb(29, 41, 52);
+}
+
+#CountBtn{
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.8s;
+}
+
+#CountBtn:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
